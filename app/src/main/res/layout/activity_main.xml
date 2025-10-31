@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <!-- Bagian Tengah -->
+    <LinearLayout
+        android:id="@+id/centerContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <!-- Judul Aplikasi -->
+        <TextView
+            android:id="@+id/tvAppTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mesen\nMakanan"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:letterSpacing="0.02" />
+
+        <!-- Subjudul -->
+        <TextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesan makanan favoritmu dengan mudah"
+            android:textColor="#757575"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- Tombol Start -->
+    <Button
+        android:id="@+id/btnStartNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Now"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#212121"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="4dp"
+        android:paddingVertical="14dp" />
+
+</RelativeLayout>
